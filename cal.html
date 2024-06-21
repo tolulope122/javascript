@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+   <div id="calculator">
+    <input id="display" readonly>
+    <div id="keys">
+         <button onclick="appendToOiplay('C')" class="operator-btn">C</button>
+         <button onclick="appendToOiplay('a')"><i class="fa-solid fa-plus-minus"></i></button>
+         <button onclick="appendToOiplay('b')"><i class="fa-solid fa-percent"></i></button>
+         <button onclick="appendToOiplay('d')"><i class="fa-solid fa-divide"></i></button>
+
+        <button onclick="appendToOiplay('+')" class="operator-btn">+</button>
+        <button onclick="appendToOiplay('7')">7</button>
+        <button onclick="appendToOiplay('8')">8</button>
+        <button onclick="appendToOiplay('9')">9</button>
+        <button onclick="appendToOiplay('-')" class="operator-btn">-</button>
+        <button onclick="appendToOiplay('4')">4</button>
+        <button onclick="appendToOiplay('5')">5</button>
+        <button onclick="appendToOiplay('6')">6</button>
+        <button onclick="appendToOiplay('*')" class="operator-btn">*</button>
+        <button onclick="appendToOiplay('1')">1</button>
+        <button onclick="appendToOiplay('2')">2</button>
+        <button onclick="appendToOiplay('3')">3</button>
+         <button onclick="appendToOiplay('/')" class="operator-btn">/</button> 
+        <button onclick="appendToOiplay('0')" class="pa">0</button>
+        <button onclick="appendToOiplay('.')">.</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="clearDisplay()" class="operator-btn">C</button>
+        
+
+
+
+    </div>
+
+   </div> 
+   <script src="cal.js"></script>
+</body>
+</html>
